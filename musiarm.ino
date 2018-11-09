@@ -55,8 +55,8 @@
 // set SPI freqency 1MHz
 #define SPI_CLK 1000000
 
-#define SERVICE_UUID        "94a59864-c546-4f37-8a13-aa76fbe9a761"
-#define CHARACTERISTIC_UUID "226bfbea-c977-455b-a43e-99bd2a43b28b"
+#define SERVICE_UUID        "03b80e5a-ede8-4b33-a751-6ce34ec4c700"
+#define CHARACTERISTIC_UUID "7772e5db-3868-4112-a1a9-f2669d106bf3"
 
 BLECharacteristic *pCharacteristic;
 bool deviceConnected = false;
