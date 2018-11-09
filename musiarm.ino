@@ -190,7 +190,7 @@ void setup() {
 
   Serial.begin(115200);
 
-  BLEDevice::init("ESP");
+  BLEDevice::init("DRM");
 
   // Create the BLE Server
   BLEServer *pServer = BLEDevice::createServer();
